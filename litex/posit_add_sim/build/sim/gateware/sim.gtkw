@@ -1,0 +1,40 @@
+[dumpfile] "/Users/swethaaa/Documents/e4r/litex/posit_add_sim/build/sim/gateware/sim.vcd"
+[treeopen] TOP.
+[treeopen] TOP.sim.
+[sst_expanded] 1
+@800200
+-clocks
+@22
++{sys_clk_1} TOP.sim.sys_clk_1
++{por_clk} TOP.sim.por_clk
+@1000200
+-clocks
+@22
+TOP.sim.simsoc_state
+@c00200
+-interface1_ram_bus
+@22
+[color] 0
++{cyc} TOP.sim.interface1_ram_bus_cyc
+[color] 0
++{stb} TOP.sim.interface1_ram_bus_stb
+[color] 0
++{ack} TOP.sim.interface1_ram_bus_ack
+[color] 3
++{adr[29:0]} TOP.sim.interface1_ram_bus_adr[29:0]
+[color] 3
++{we} TOP.sim.interface1_ram_bus_we
+[color] 3
++{sel[3:0]} TOP.sim.interface1_ram_bus_sel[3:0]
+[color] 2
++{dat_w[31:0]} TOP.sim.interface1_ram_bus_dat_w[31:0]
+[color] 1
++{dat_r[31:0]} TOP.sim.interface1_ram_bus_dat_r[31:0]
+[color] 6
++{cti[2:0]} TOP.sim.interface1_ram_bus_cti[2:0]
+[color] 6
++{bte[1:0]} TOP.sim.interface1_ram_bus_bte[1:0]
+[color] 6
++{err} TOP.sim.interface1_ram_bus_err
+@1401200
+-interface1_ram_bus
